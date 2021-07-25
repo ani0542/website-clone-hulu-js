@@ -1,0 +1,39 @@
+.live {
+    background: #151516;
+    padding: 40px;
+  }
+
+  .live-border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #1ce783;
+    border-radius: 16px;
+    padding: 100px;
+    text-align: center;
+  }
+
+  .live a {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+
+
+
+    /* media queries */
+
+    @media (max-width: 768px) {
+        .categories .covers {
+           
+            grid-template-columns: 1fr!important;
+          
+          }
+ 
+          .live-border{
+              padding: 30px;
+          }
+
+       }
